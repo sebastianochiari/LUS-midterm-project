@@ -1,0 +1,6 @@
+./data/NL2SparQL4NLU/NL2SparQL4NLU.train.utterances.txt
+Total words: 21453
+Total utterances: 3338
+Unique words: 1729
+OOV percentage: 71.74287978371324
+Concept percentage: 28.25712021628677
