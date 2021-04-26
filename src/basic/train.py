@@ -1,4 +1,5 @@
 import os
+import sys
 from utils import read_corpus, cutoff, read_corpus_conll, get_column
 
 # files management
@@ -7,6 +8,8 @@ train_path_CONLL = '../../data/NL2SparQL4NLU/NL2SparQL4NLU.train.conll.txt'
 
 # CUTOFF MANAGEMENT
 CUTOFF = 2
+if(len(sys.argv) == 2):
+    CUTOFF = int(sys.argv[1])
 
 # read corpus from utterances file
 train_data = read_corpus(train_path)

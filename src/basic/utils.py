@@ -1,3 +1,7 @@
+"""
+Utility function container
+"""
+
 import re
 from math import log
 
@@ -36,6 +40,9 @@ def read_corpus_conll(corpus_file, fs="\t"):
     return sents
 
 def get_column(corpus, column=-1):
+    """
+    get column from loaded corpus
+    """
     return [[word[column] for word in sent] for sent in corpus]
 
 def compute_frequency_list(corpus):

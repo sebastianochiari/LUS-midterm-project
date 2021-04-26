@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# remove all the temporary files and folders generated during train and test
+
 rm -f *.fst
 rm -f *.far
 rm -f *.fsa
