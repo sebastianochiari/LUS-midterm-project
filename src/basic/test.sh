@@ -1,6 +1,6 @@
 #!/bin/bash
 
-TEST_PATH='../../data/NL2SparQL4NLU/NL2SparQL4NLU.test.utterances.txt'
+TEST_PATH='../../data/ATIS/ATIS.test.utterances.txt'
 
 # generate FAR with all test sentences
 farcompilestrings \

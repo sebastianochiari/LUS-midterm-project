@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # DATASET FILE PATH
-DATASET_CONLL_PATH='../../data/NL2SparQL4NLU/NL2SparQL4NLU.train.conll.txt'
+DATASET_CONLL_PATH='../../data/ATIS/ATIS.train.conll.txt'
 
 # check the input parameters
 # python3 gateway.py $1 $2

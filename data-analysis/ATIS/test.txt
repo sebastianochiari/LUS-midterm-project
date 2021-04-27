@@ -1,0 +1,6 @@
+./data/ATIS/ATIS.test.utterances.txt
+Total words: 9198
+Total utterances: 893
+Unique words: 447
+OOV percentage: 60.154381387258105
+Concept percentage: 39.845618612741895

@@ -1,0 +1,6 @@
+./data/ATIS/ATIS.train.utterances.txt
+Total words: 56591
+Total utterances: 4978
+Unique words: 889
+OOV percentage: 63.69564064957325
+Concept percentage: 36.30435935042675
