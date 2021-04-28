@@ -1,7 +1,10 @@
 #!/bin/bash
 
+# create the custom dataset without the O tags
+python3 preprocess.py
+
 # DATASET FILE PATH
-DATASET_CONLL_PATH='../../data/ATIS/ATIS.train.conll.txt'
+DATASET_CONLL_PATH='./NL2SparQL4NLU.train.conll.txt'
 
 # generate input and output lexicon
 python3 train.py $3
