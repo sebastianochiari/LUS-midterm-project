@@ -36,3 +36,8 @@ Cleans the directory from all the temporary files generated during train and tes
 
 ### 📝 Models
 
+- **basic** model  
+
+- **without O-tags** model  
+
+- **normalized** model  
