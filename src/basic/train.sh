@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # DATASET FILE PATH
-DATASET_CONLL_PATH='../../data/ATIS/ATIS.train.conll.txt'
+DATASET_CONLL_PATH='../../data/NLU-benchmark/AddToPlaylist/AddToPlaylist.train.conll.txt'
 
 # generate input and output lexicon
 python3 train.py $3

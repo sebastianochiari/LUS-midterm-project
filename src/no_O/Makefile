@@ -5,10 +5,10 @@ help:	## Show this help message
 	@fgrep -h '##' $(MAKEFILE_LIST) | fgrep -v fgrep | sed -e 's/\\$$//' | sed -e 's/##//'
 
 setup: ## Edit system permission to run the bash scripts
-	@chmod -x batch.sh
-	@chmod -x clean.sh
-	@chmod -x test.sh
-	@chmod -x train.sh
+	@chmod +x batch.sh
+	@chmod +x clean.sh
+	@chmod +x test.sh
+	@chmod +x train.sh
 
 train: 	## Train the basic model
 	@## ORDER param: specify the ngram order (integer number)

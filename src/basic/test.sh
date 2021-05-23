@@ -1,6 +1,6 @@
 #!/bin/bash
 
-TEST_PATH='../../data/ATIS/ATIS.test.utterances.txt'
+TEST_PATH='../../data/NLU-benchmark/AddToPlaylist/AddToPlaylist.test.utterances.txt'
 
 # generate FAR with all test sentences
 farcompilestrings \

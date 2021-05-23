@@ -3,8 +3,8 @@ import sys
 from utils import read_corpus, cutoff, read_corpus_conll, get_column
 
 # files management
-train_path = '../../data/ATIS/ATIS.train.utterances.txt'
-train_path_CONLL = '../../data/ATIS/ATIS.train.conll.txt'
+train_path = '../../data/NLU-benchmark/AddToPlaylist/AddToPlaylist.train.utterances.txt'
+train_path_CONLL = '../../data/NLU-benchmark/AddToPlaylist/AddToPlaylist.train.conll.txt'
 
 # CUTOFF MANAGEMENT
 CUTOFF = 2

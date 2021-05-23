@@ -47,6 +47,7 @@ for i in range(len(data[INTENT])):
                     tag = 'B-' + tag
                 else:
                     tag = 'I-' + tag
+                
                 conll += tag + '\n'
 
             else:
