@@ -26,3 +26,16 @@ done > w2wt_wt.wt2.out
 
 # run the evaluation script
 python3 test.py
+
+# results.csv formatting section
+if [ $# -eq 2 ]
+  then
+    # change results.csv file name and move to the correct folder
+    mkdir results
+    mv results.csv results/results_order-$1_method-$2_cutoff-2.csv  
+elif [ $# -eq 3 ]
+  then
+    # change results.csv file name and move to the correct folder
+    mkdir results
+    mv results.csv results/results_order-$1_method-$2_cutoff-$3.csv  
+fi

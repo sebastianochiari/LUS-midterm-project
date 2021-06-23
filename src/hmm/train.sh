@@ -14,8 +14,8 @@ farcompilestrings \
     trn.wt.txt trn.wt.far
 
 # train ngram model
-ngramcount --order=2 trn.wt.far trn.wt.cnt
-ngrammake trn.wt.cnt wt2.lm
+ngramcount --order=$1 trn.wt.far trn.wt.cnt
+ngrammake --method=$2 trn.wt.cnt wt2.lm
 ngraminfo wt2.lm
 
 # GENERATE FST
