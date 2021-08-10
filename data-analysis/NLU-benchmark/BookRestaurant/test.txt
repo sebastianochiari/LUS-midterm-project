@@ -1,0 +1,6 @@
+./data/NLU-benchmark/BookRestaurant/BookRestaurant.test.utterances.txt
+Total words: 1204
+Total utterances: 100
+Unique words: 345
+OOV percentage: 58.88704318936877
+Concept percentage: 41.11295681063123

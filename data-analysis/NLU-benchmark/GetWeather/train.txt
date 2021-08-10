@@ -1,0 +1,6 @@
+./data/NLU-benchmark/GetWeather/GetWeather.train.utterances.txt
+Total words: 19318
+Total utterances: 2000
+Unique words: 2373
+OOV percentage: 59.592090278496734
+Concept percentage: 40.407909721503266

@@ -1,0 +1,6 @@
+./data/NLU-benchmark/GetWeather/GetWeather.test.utterances.txt
+Total words: 1032
+Total utterances: 100
+Unique words: 332
+OOV percentage: 59.98062015503876
+Concept percentage: 40.01937984496124

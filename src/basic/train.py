@@ -3,8 +3,8 @@ import sys
 from utils import read_corpus, cutoff, read_corpus_conll, get_column
 
 # files management
-train_path = '../../data/NL2SparQL4NLU/NL2SparQL4NLU.train.utterances.txt'
-train_path_CONLL = '../../data/NL2SparQL4NLU/NL2SparQL4NLU.train.conll.txt'
+train_path = '../../data/NLU-benchmark/GetWeather/GetWeather.train.utterances.txt'
+train_path_CONLL = '../../data/NLU-benchmark/GetWeather/GetWeather.train.conll.txt'
 
 # CUTOFF MANAGEMENT
 CUTOFF = 2

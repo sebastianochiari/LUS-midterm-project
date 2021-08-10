@@ -1,0 +1,6 @@
+./data/NLU-benchmark/BookRestaurant/BookRestaurant.train.utterances.txt
+Total words: 23875
+Total utterances: 1973
+Unique words: 2839
+OOV percentage: 57.44083769633508
+Concept percentage: 42.55916230366492
