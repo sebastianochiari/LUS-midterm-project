@@ -6,7 +6,7 @@ The main dataset used for train and test the model is [`NL2SparQL4NLU`](https://
 - [`NLU evaluation corpora`](https://github.com/sebischair/NLU-Evaluation-Corpora)
 - [`NLU benchmark`](https://github.com/sonos/nlu-benchmark)
 
-The detailed description of the whole module can be found inside the `report.pdf`. 
+The detailed description of the whole module can be found inside the `report` folder. 
 
 ### ⚙️ Requirements
 - `Python` (version `3.9.2`)
@@ -17,7 +17,7 @@ The detailed description of the whole module can be found inside the `report.pdf
 - Clone the repository `https://github.com/sebastianochiari/LUS-midterm-project`
 - Install all the dependencies listed above
 - Move to the model folder of your choice `src/basic`, `src/no_O` or `src/normalized` (more info about model implementation can be found further down in the README or in the `report.pdf`)
-- 
+- Update the paths in `train.sh`, `train.py`, `test.sh`, `test.py` with the correct train and test files
 - Run the command `make` or `make help`, which will display all the instructions to run correctly the model
 
 Each **makefile** has the following commands:
@@ -40,4 +40,4 @@ Cleans the directory from all the temporary files generated during train and tes
 
 - **without O-tags** model  
 
-- **normalized** model  
+- **HMM** model  
